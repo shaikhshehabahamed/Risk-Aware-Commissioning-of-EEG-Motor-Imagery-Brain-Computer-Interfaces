@@ -1,0 +1,4 @@
+Comparison,AUC_A,AUC_B,z,p-value,Significant (a=0.017)
+MS vs SP,0.526,0.581,-0.675,0.4995,No
+MS+SP vs MS,0.584,0.526,1.094,0.2739,No
+MS+SP vs SP,0.584,0.581,0.046,0.9635,No

@@ -1,0 +1,38 @@
+n=92  viable=49  non-viable=43
+
+Extracting additional features from raw EC EEG...
+Extracted 19 new features per subject: ['BP_alpha_P7', 'BP_smr_P7', 'BP_beta_P7', 'BP_alpha_P8', 'BP_smr_P8']...
+
+Spearman correlations (new features vs fold3_acc):
+  BP_alpha_P8                   : rho=+0.164  p=0.117
+  Lat_smr_P4_P3                 : rho=+0.199  p=0.057
+
+  Significant (p<0.05): 0 features
+
+Saved features_extra2.npz  shape=(92, 19)
+Full augmented pool: (92, 87)
+
+============================================================
+Classification with full augmented pool
+============================================================
+  SP-full/LR(C=1.5)-top25: AUC=0.642  [27.5s]  BEST
+  SP-full/LR(C=2.0)-top25: AUC=0.644  [25.2s]  BEST
+  SP-full/LR(C=3.0)-top25: AUC=0.652  [14.8s]  BEST
+  SP-full/LR(C=1.5)-top28: AUC=0.645  [18.8s]  <=
+  SP-full/LR(C=2.0)-top28: AUC=0.646  [19.1s]  <=
+  SP-full/LR(C=3.0)-top28: AUC=0.652  [18.8s]  <=
+  SP-full/LR(C=1.5)-top30: AUC=0.658  [18.2s]  BEST
+  SP-full/LR(C=2.0)-top30: AUC=0.659  [18.1s]  BEST
+  SP-full/LR(C=3.0)-top30: AUC=0.654  [20.2s]  <=
+  SP-full/LR(C=1.5)-top32: AUC=0.660  [24.4s]  BEST
+  SP-full/LR(C=2.0)-top32: AUC=0.663  [18.4s]  BEST
+  SP-full/LR(C=3.0)-top32: AUC=0.659  [26.9s]  <=
+  SP-full/LR(C=1.5)-top35: AUC=0.650  [52.1s]  <=
+  SP-full/LR(C=2.0)-top35: AUC=0.655  [33.2s]  <=
+  SP-full/LR(C=3.0)-top35: AUC=0.656  [23.9s]  <=
+
+  Best full-aug: k=32  C=2.0  AUC=0.663  (no improvement vs 0.682)
+  Bootstrap 95%CI = [0.379,0.616]
+
+Saved -> features_extra2.npz
+DONE

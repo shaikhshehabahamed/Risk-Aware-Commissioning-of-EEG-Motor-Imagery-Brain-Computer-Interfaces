@@ -1,0 +1,14 @@
+{
+  "best_auc_C_sweep": 0.6820123398196487,
+  "best_C_nested": 2.0,
+  "best_auc_k_tune": 0.6820123398196487,
+  "best_k": 28,
+  "best_auc_lasso_aug68": 0.6108210726150926,
+  "best_C_lasso_aug68": 1.0,
+  "best_auc_lasso_sp47": 0.5453251067869008,
+  "best_C_lasso_sp47": 1.0,
+  "lasso_perm_p": 0.065,
+  "lasso_perm_null_mean": 0.49508542952064544,
+  "lasso_ci_lo": 0.49297646658487876,
+  "lasso_ci_hi": 0.7234062701482913
+}

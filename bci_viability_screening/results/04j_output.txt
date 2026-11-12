@@ -1,0 +1,95 @@
+n=92  viable=49  non-viable=43
+SP-aug-68 shape: (92, 68)
+
+============================================================
+A. C-sweep at k=28 for SP-aug-68/LR-nested
+============================================================
+  SP-aug/LR(C=0.5)-top28: AUC=0.667  [6.6s]  BEST
+  SP-aug/LR(C=1.0)-top28: AUC=0.676  [6.4s]  BEST
+  SP-aug/LR(C=1.5)-top28: AUC=0.679  [7.2s]  BEST
+  SP-aug/LR(C=2.0)-top28: AUC=0.682  [6.7s]  BEST
+  SP-aug/LR(C=2.5)-top28: AUC=0.681  [6.6s]  <= best=0.682
+  SP-aug/LR(C=3.0)-top28: AUC=0.678  [6.9s]  <= best=0.682
+  SP-aug/LR(C=4.0)-top28: AUC=0.677  [7.1s]  <= best=0.682
+  SP-aug/LR(C=5.0)-top28: AUC=0.676  [6.9s]  <= best=0.682
+
+  A-optimal: C=2.0  AUC=0.682  (vs global best=0.682)
+
+============================================================
+B. k fine-tune around 28 at C=2.0 for SP-aug-68
+============================================================
+  SP-aug/LR(C=2.0)-top24: AUC=0.655  [6.8s]  BEST
+  SP-aug/LR(C=2.0)-top26: AUC=0.650  [7.0s]  <= best=0.655
+  SP-aug/LR(C=2.0)-top27: AUC=0.664  [6.8s]  BEST
+  SP-aug/LR(C=2.0)-top28: AUC=0.682  [7.2s]  BEST
+  SP-aug/LR(C=2.0)-top29: AUC=0.675  [6.9s]  <= best=0.682
+  SP-aug/LR(C=2.0)-top30: AUC=0.671  [6.9s]  <= best=0.682
+  SP-aug/LR(C=2.0)-top32: AUC=0.661  [6.8s]  <= best=0.682
+  SP-aug/LR(C=2.0)-top35: AUC=0.645  [7.5s]  <= best=0.682
+
+  B-optimal: k=28  C=2.0  AUC=0.682
+
+============================================================
+C. L1-LASSO on SP-aug-68 (no separate nested selection)
+============================================================
+  SP-aug/LASSO(C=0.005): AUC=0.500  [0.2s]  BEST
+  SP-aug/LASSO(C=0.010): AUC=0.500  [0.2s]  <= best=0.500
+  SP-aug/LASSO(C=0.020): AUC=0.500  [0.1s]  <= best=0.500
+  SP-aug/LASSO(C=0.050): AUC=0.500  [0.1s]  <= best=0.500
+  SP-aug/LASSO(C=0.100): AUC=0.427  [0.1s]  <= best=0.500
+  SP-aug/LASSO(C=0.200): AUC=0.430  [0.1s]  <= best=0.500
+  SP-aug/LASSO(C=0.500): AUC=0.533  [0.2s]  BEST
+  SP-aug/LASSO(C=1.000): AUC=0.611  [0.3s]  BEST
+
+  C-optimal: C=1.0  AUC=0.611
+
+============================================================
+D. L1-LASSO on SP-47 (standard sensorimotor features only)
+============================================================
+  SP-47/LASSO(C=0.010): AUC=0.500  [0.1s]  BEST
+  SP-47/LASSO(C=0.020): AUC=0.500  [0.1s]  <= best=0.500
+  SP-47/LASSO(C=0.050): AUC=0.500  [0.1s]  <= best=0.500
+  SP-47/LASSO(C=0.100): AUC=0.427  [0.1s]  <= best=0.500
+  SP-47/LASSO(C=0.200): AUC=0.456  [0.1s]  <= best=0.500
+  SP-47/LASSO(C=0.500): AUC=0.538  [0.2s]  BEST
+  SP-47/LASSO(C=1.000): AUC=0.545  [0.2s]  BEST
+  SP-47/LASSO(C=2.000): AUC=0.529  [0.4s]  <= best=0.545
+
+  D-optimal SP-47/LASSO: C=1.0  AUC=0.545
+
+============================================================
+E. Permutation test (n=200) for SP-aug-68/LASSO (C=1.000), AUC=0.611
+============================================================
+  perm  20/200  max_null=0.591  elapsed=4s  ETA=40s
+  perm  40/200  max_null=0.736  elapsed=9s  ETA=37s
+  perm  60/200  max_null=0.736  elapsed=14s  ETA=32s
+  perm  80/200  max_null=0.736  elapsed=18s  ETA=28s
+  perm 100/200  max_null=0.736  elapsed=23s  ETA=23s
+  perm 120/200  max_null=0.736  elapsed=28s  ETA=19s
+  perm 140/200  max_null=0.736  elapsed=32s  ETA=14s
+  perm 160/200  max_null=0.736  elapsed=39s  ETA=10s
+  perm 180/200  max_null=0.736  elapsed=46s  ETA=5s
+  perm 200/200  max_null=0.736  elapsed=52s  ETA=0s
+
+  Observed AUC = 0.611
+  Null mean    = 0.495  std=0.085
+  Null max     = 0.736
+  p-value      = 0.0650
+  --> n.s.
+
+============================================================
+F. Bootstrap CI (n=5000) for LASSO model
+============================================================
+  SP-aug-68/LASSO: AUC=0.611  95%CI=[0.493,0.723]
+
+============================================================
+SUMMARY
+============================================================
+  A: SP-aug/L2-nested C-sweep: AUC=0.682  (C=2.0, k=28)
+  B: SP-aug/L2-nested k-tune:  AUC=0.682  (C=2.0, k=28)
+  C: SP-aug/LASSO:             AUC=0.611  (C=1.000)
+  D: SP-47/LASSO:              AUC=0.545  (C=1.000)
+  Overall best: 0.682  (vs 0.682 from 04i)
+  LASSO perm p = 0.0650  (n.s.)
+
+Saved -> C:\Users\sheha\Downloads\resting_bci_screening\results\screening_results_c_sweep_lasso.json

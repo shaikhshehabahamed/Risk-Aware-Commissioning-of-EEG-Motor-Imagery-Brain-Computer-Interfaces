@@ -1,0 +1,3511 @@
+{
+  "task": "Task2_HandMI",
+  "runs": [
+    "R04",
+    "R08",
+    "R12"
+  ],
+  "viability_threshold": 0.6,
+  "n_subjects": 92,
+  "n_viable": 49,
+  "n_nonviable": 43,
+  "n_errors": 0,
+  "per_subject": [
+    {
+      "subject": "S001",
+      "viable": true,
+      "fold3_accuracy": 0.6,
+      "mean_loro_acc": 0.688888888888889,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.8,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S002",
+      "viable": true,
+      "fold3_accuracy": 0.8,
+      "mean_loro_acc": 0.8000000000000002,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.9333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.8,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S003",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.5555555555555555,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S004",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.5555555555555555,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S005",
+      "viable": true,
+      "fold3_accuracy": 0.6,
+      "mean_loro_acc": 0.5777777777777778,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S006",
+      "viable": true,
+      "fold3_accuracy": 0.6,
+      "mean_loro_acc": 0.5555555555555555,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S007",
+      "viable": true,
+      "fold3_accuracy": 0.9333333333333333,
+      "mean_loro_acc": 0.9555555555555556,
+      "folds": {
+        "fold1": {
+          "accuracy": 1.0,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.9333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.9333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S008",
+      "viable": false,
+      "fold3_accuracy": 0.4666666666666667,
+      "mean_loro_acc": 0.4666666666666666,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S010",
+      "viable": false,
+      "fold3_accuracy": 0.4666666666666667,
+      "mean_loro_acc": 0.48888888888888893,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S011",
+      "viable": true,
+      "fold3_accuracy": 0.6,
+      "mean_loro_acc": 0.5555555555555555,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S012",
+      "viable": true,
+      "fold3_accuracy": 0.6666666666666666,
+      "mean_loro_acc": 0.6,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S014",
+      "viable": false,
+      "fold3_accuracy": 0.3333333333333333,
+      "mean_loro_acc": 0.39999999999999997,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.3333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S015",
+      "viable": true,
+      "fold3_accuracy": 0.7333333333333333,
+      "mean_loro_acc": 0.6222222222222222,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S016",
+      "viable": true,
+      "fold3_accuracy": 0.6666666666666666,
+      "mean_loro_acc": 0.6666666666666666,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S017",
+      "viable": false,
+      "fold3_accuracy": 0.4444444444444444,
+      "mean_loro_acc": 0.44497354497354497,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.35714285714285715,
+          "n_train": 24,
+          "n_test": 14
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 23,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4444444444444444,
+          "n_train": 29,
+          "n_test": 9
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 9
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S018",
+      "viable": false,
+      "fold3_accuracy": 0.4,
+      "mean_loro_acc": 0.6,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S020",
+      "viable": false,
+      "fold3_accuracy": 0.4666666666666667,
+      "mean_loro_acc": 0.48888888888888893,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S022",
+      "viable": false,
+      "fold3_accuracy": 0.4666666666666667,
+      "mean_loro_acc": 0.5897435897435898,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.7692307692307693,
+          "n_train": 30,
+          "n_test": 13
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 28,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 28,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 13
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S023",
+      "viable": false,
+      "fold3_accuracy": 0.5714285714285714,
+      "mean_loro_acc": 0.5825396825396826,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6428571428571429,
+          "n_train": 29,
+          "n_test": 14
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 28,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5714285714285714,
+          "n_train": 29,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S025",
+      "viable": true,
+      "fold3_accuracy": 0.6,
+      "mean_loro_acc": 0.6222222222222222,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S026",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.6666666666666666,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.9333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S027",
+      "viable": true,
+      "fold3_accuracy": 0.6666666666666666,
+      "mean_loro_acc": 0.5333333333333333,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S028",
+      "viable": false,
+      "fold3_accuracy": 0.3333333333333333,
+      "mean_loro_acc": 0.4888888888888889,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.3333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S029",
+      "viable": true,
+      "fold3_accuracy": 1.0,
+      "mean_loro_acc": 1.0,
+      "folds": {
+        "fold1": {
+          "accuracy": 1.0,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 1.0,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 1.0,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S030",
+      "viable": true,
+      "fold3_accuracy": 0.6,
+      "mean_loro_acc": 0.4444444444444445,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.3333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S031",
+      "viable": true,
+      "fold3_accuracy": 0.8666666666666667,
+      "mean_loro_acc": 0.888888888888889,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.9333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.8666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.8666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S033",
+      "viable": true,
+      "fold3_accuracy": 0.7333333333333333,
+      "mean_loro_acc": 0.6222222222222222,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S034",
+      "viable": true,
+      "fold3_accuracy": 0.9285714285714286,
+      "mean_loro_acc": 0.7666666666666666,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.8,
+          "n_train": 28,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5714285714285714,
+          "n_train": 29,
+          "n_test": 14
+        },
+        "fold3_prospective": {
+          "accuracy": 0.9285714285714286,
+          "n_train": 29,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S035",
+      "viable": true,
+      "fold3_accuracy": 0.6666666666666666,
+      "mean_loro_acc": 0.6222222222222222,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S036",
+      "viable": true,
+      "fold3_accuracy": 0.6,
+      "mean_loro_acc": 0.5682539682539683,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 29,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5714285714285714,
+          "n_train": 30,
+          "n_test": 14
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6,
+          "n_train": 29,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S037",
+      "viable": false,
+      "fold3_accuracy": 0.42857142857142855,
+      "mean_loro_acc": 0.4619047619047619,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6,
+          "n_train": 28,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.35714285714285715,
+          "n_train": 29,
+          "n_test": 14
+        },
+        "fold3_prospective": {
+          "accuracy": 0.42857142857142855,
+          "n_train": 29,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S038",
+      "viable": false,
+      "fold3_accuracy": 0.4666666666666667,
+      "mean_loro_acc": 0.48888888888888893,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S039",
+      "viable": false,
+      "fold3_accuracy": 0.4,
+      "mean_loro_acc": 0.4649572649572649,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 23,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.46153846153846156,
+          "n_train": 25,
+          "n_test": 13
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4,
+          "n_train": 28,
+          "n_test": 10
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 13
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 10
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S040",
+      "viable": true,
+      "fold3_accuracy": 0.7333333333333333,
+      "mean_loro_acc": 0.6,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S041",
+      "viable": false,
+      "fold3_accuracy": 0.4666666666666667,
+      "mean_loro_acc": 0.5,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 29,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5,
+          "n_train": 30,
+          "n_test": 14
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 29,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S042",
+      "viable": true,
+      "fold3_accuracy": 0.8,
+      "mean_loro_acc": 0.8666666666666667,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.8,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 1.0,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.8,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S043",
+      "viable": true,
+      "fold3_accuracy": 0.6,
+      "mean_loro_acc": 0.6444444444444444,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S045",
+      "viable": false,
+      "fold3_accuracy": 0.4666666666666667,
+      "mean_loro_acc": 0.526984126984127,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.4,
+          "n_train": 29,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.7142857142857143,
+          "n_train": 30,
+          "n_test": 14
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 29,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S046",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.4222222222222222,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.2,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S047",
+      "viable": true,
+      "fold3_accuracy": 0.6666666666666666,
+      "mean_loro_acc": 0.5555555555555555,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S049",
+      "viable": false,
+      "fold3_accuracy": 0.5833333333333334,
+      "mean_loro_acc": 0.5722222222222223,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 27,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6,
+          "n_train": 27,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5833333333333334,
+          "n_train": 30,
+          "n_test": 12
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 12
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S050",
+      "viable": true,
+      "fold3_accuracy": 0.6666666666666666,
+      "mean_loro_acc": 0.6444444444444444,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S051",
+      "viable": true,
+      "fold3_accuracy": 0.6666666666666666,
+      "mean_loro_acc": 0.6444444444444444,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S052",
+      "viable": false,
+      "fold3_accuracy": 0.5833333333333334,
+      "mean_loro_acc": 0.5482905982905982,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6,
+          "n_train": 25,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.46153846153846156,
+          "n_train": 27,
+          "n_test": 13
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5833333333333334,
+          "n_train": 28,
+          "n_test": 12
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 13
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 12
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S053",
+      "viable": true,
+      "fold3_accuracy": 1.0,
+      "mean_loro_acc": 0.9111111111111111,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.8,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.9333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 1.0,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S054",
+      "viable": true,
+      "fold3_accuracy": 0.9285714285714286,
+      "mean_loro_acc": 0.8380952380952381,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.8,
+          "n_train": 28,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.7857142857142857,
+          "n_train": 29,
+          "n_test": 14
+        },
+        "fold3_prospective": {
+          "accuracy": 0.9285714285714286,
+          "n_train": 29,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S055",
+      "viable": true,
+      "fold3_accuracy": 0.8,
+      "mean_loro_acc": 0.6666666666666666,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.8,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S056",
+      "viable": true,
+      "fold3_accuracy": 0.6363636363636364,
+      "mean_loro_acc": 0.7898989898989899,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.8,
+          "n_train": 26,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.9333333333333333,
+          "n_train": 26,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6363636363636364,
+          "n_train": 30,
+          "n_test": 11
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 11
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S057",
+      "viable": true,
+      "fold3_accuracy": 0.6666666666666666,
+      "mean_loro_acc": 0.5444444444444444,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 24,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5,
+          "n_train": 27,
+          "n_test": 12
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 27,
+          "n_test": 12
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 12
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 12
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S058",
+      "viable": true,
+      "fold3_accuracy": 0.6,
+      "mean_loro_acc": 0.5777777777777778,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S059",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.4666666666666666,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S062",
+      "viable": true,
+      "fold3_accuracy": 0.6666666666666666,
+      "mean_loro_acc": 0.7333333333333333,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.8666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S063",
+      "viable": true,
+      "fold3_accuracy": 0.6666666666666666,
+      "mean_loro_acc": 0.6444444444444444,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S064",
+      "viable": false,
+      "fold3_accuracy": 0.5714285714285714,
+      "mean_loro_acc": 0.546031746031746,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 29,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 29,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5714285714285714,
+          "n_train": 30,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S065",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.6,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S066",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.5333333333333333,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S067",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.48888888888888893,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S068",
+      "viable": false,
+      "fold3_accuracy": 0.26666666666666666,
+      "mean_loro_acc": 0.39999999999999997,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.3333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.26666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S069",
+      "viable": true,
+      "fold3_accuracy": 0.6666666666666666,
+      "mean_loro_acc": 0.5777777777777778,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S070",
+      "viable": true,
+      "fold3_accuracy": 0.7857142857142857,
+      "mean_loro_acc": 0.8174603174603173,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 29,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.9333333333333333,
+          "n_train": 29,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.7857142857142857,
+          "n_train": 30,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S071",
+      "viable": false,
+      "fold3_accuracy": 0.4,
+      "mean_loro_acc": 0.5777777777777778,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S072",
+      "viable": true,
+      "fold3_accuracy": 0.8,
+      "mean_loro_acc": 0.9333333333333332,
+      "folds": {
+        "fold1": {
+          "accuracy": 1.0,
+          "n_train": 29,
+          "n_test": 14
+        },
+        "fold2": {
+          "accuracy": 1.0,
+          "n_train": 29,
+          "n_test": 14
+        },
+        "fold3_prospective": {
+          "accuracy": 0.8,
+          "n_train": 28,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S073",
+      "viable": false,
+      "fold3_accuracy": 0.5714285714285714,
+      "mean_loro_acc": 0.4761904761904762,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5,
+          "n_train": 28,
+          "n_test": 14
+        },
+        "fold2": {
+          "accuracy": 0.35714285714285715,
+          "n_train": 28,
+          "n_test": 14
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5714285714285714,
+          "n_train": 28,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S074",
+      "viable": false,
+      "fold3_accuracy": 0.42857142857142855,
+      "mean_loro_acc": 0.5333333333333333,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6,
+          "n_train": 28,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5714285714285714,
+          "n_train": 29,
+          "n_test": 14
+        },
+        "fold3_prospective": {
+          "accuracy": 0.42857142857142855,
+          "n_train": 29,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S075",
+      "viable": true,
+      "fold3_accuracy": 0.7857142857142857,
+      "mean_loro_acc": 0.5695970695970697,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5384615384615384,
+          "n_train": 27,
+          "n_test": 13
+        },
+        "fold2": {
+          "accuracy": 0.38461538461538464,
+          "n_train": 27,
+          "n_test": 13
+        },
+        "fold3_prospective": {
+          "accuracy": 0.7857142857142857,
+          "n_train": 26,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 13
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 13
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S076",
+      "viable": false,
+      "fold3_accuracy": 0.5,
+      "mean_loro_acc": 0.4761904761904762,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5,
+          "n_train": 28,
+          "n_test": 14
+        },
+        "fold2": {
+          "accuracy": 0.42857142857142855,
+          "n_train": 28,
+          "n_test": 14
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5,
+          "n_train": 28,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S077",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.5777777777777778,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S078",
+      "viable": false,
+      "fold3_accuracy": 0.4666666666666667,
+      "mean_loro_acc": 0.4222222222222222,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S080",
+      "viable": false,
+      "fold3_accuracy": 0.4666666666666667,
+      "mean_loro_acc": 0.5555555555555555,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S081",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.5555555555555555,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S082",
+      "viable": true,
+      "fold3_accuracy": 0.6,
+      "mean_loro_acc": 0.48888888888888893,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S083",
+      "viable": true,
+      "fold3_accuracy": 0.7272727272727273,
+      "mean_loro_acc": 0.6868686868686869,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 26,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.8,
+          "n_train": 26,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.7272727272727273,
+          "n_train": 30,
+          "n_test": 11
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 11
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S084",
+      "viable": true,
+      "fold3_accuracy": 0.7333333333333333,
+      "mean_loro_acc": 0.6444444444444444,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S085",
+      "viable": true,
+      "fold3_accuracy": 0.7333333333333333,
+      "mean_loro_acc": 0.7555555555555555,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.8666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S086",
+      "viable": true,
+      "fold3_accuracy": 0.6,
+      "mean_loro_acc": 0.7031746031746032,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6428571428571429,
+          "n_train": 30,
+          "n_test": 14
+        },
+        "fold2": {
+          "accuracy": 0.8666666666666667,
+          "n_train": 29,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6,
+          "n_train": 29,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S087",
+      "viable": false,
+      "fold3_accuracy": 0.5714285714285714,
+      "mean_loro_acc": 0.5238095238095238,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 29,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 29,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5714285714285714,
+          "n_train": 30,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S089",
+      "viable": false,
+      "fold3_accuracy": 0.4,
+      "mean_loro_acc": 0.5333333333333333,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S090",
+      "viable": true,
+      "fold3_accuracy": 0.7333333333333333,
+      "mean_loro_acc": 0.5777777777777778,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S091",
+      "viable": false,
+      "fold3_accuracy": 0.5384615384615384,
+      "mean_loro_acc": 0.5572649572649572,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6,
+          "n_train": 28,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 28,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5384615384615384,
+          "n_train": 30,
+          "n_test": 13
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 13
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S093",
+      "viable": true,
+      "fold3_accuracy": 0.8,
+      "mean_loro_acc": 0.7777777777777777,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.8,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.8,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S094",
+      "viable": true,
+      "fold3_accuracy": 0.8666666666666667,
+      "mean_loro_acc": 0.8444444444444444,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.8666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.8,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.8666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S096",
+      "viable": true,
+      "fold3_accuracy": 0.6428571428571429,
+      "mean_loro_acc": 0.6638583638583638,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 27,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6153846153846154,
+          "n_train": 29,
+          "n_test": 13
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6428571428571429,
+          "n_train": 28,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 13
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S097",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.47301587301587295,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.2857142857142857,
+          "n_train": 30,
+          "n_test": 14
+        },
+        "fold2": {
+          "accuracy": 0.6,
+          "n_train": 29,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 29,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S098",
+      "viable": false,
+      "fold3_accuracy": 0.3333333333333333,
+      "mean_loro_acc": 0.4666666666666666,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.3333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S101",
+      "viable": true,
+      "fold3_accuracy": 0.6666666666666666,
+      "mean_loro_acc": 0.5111111111111111,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.4,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S102",
+      "viable": false,
+      "fold3_accuracy": 0.5,
+      "mean_loro_acc": 0.5,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5714285714285714,
+          "n_train": 28,
+          "n_test": 14
+        },
+        "fold2": {
+          "accuracy": 0.42857142857142855,
+          "n_train": 28,
+          "n_test": 14
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5,
+          "n_train": 28,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S103",
+      "viable": false,
+      "fold3_accuracy": 0.4666666666666667,
+      "mean_loro_acc": 0.5555555555555555,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S104",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.6499999999999999,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6666666666666666,
+          "n_train": 27,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.75,
+          "n_train": 30,
+          "n_test": 12
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 27,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 13,
+          "n_kept": 12
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S105",
+      "viable": false,
+      "fold3_accuracy": 0.5333333333333333,
+      "mean_loro_acc": 0.5777777777777778,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.6,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S106",
+      "viable": true,
+      "fold3_accuracy": 0.7333333333333333,
+      "mean_loro_acc": 0.6666666666666666,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold2": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.7333333333333333,
+          "n_train": 30,
+          "n_test": 15
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 15
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S107",
+      "viable": true,
+      "fold3_accuracy": 0.6428571428571429,
+      "mean_loro_acc": 0.5603174603174602,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.5714285714285714,
+          "n_train": 29,
+          "n_test": 14
+        },
+        "fold2": {
+          "accuracy": 0.4666666666666667,
+          "n_train": 28,
+          "n_test": 15
+        },
+        "fold3_prospective": {
+          "accuracy": 0.6428571428571429,
+          "n_train": 29,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 15
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    },
+    {
+      "subject": "S108",
+      "viable": true,
+      "fold3_accuracy": 0.9285714285714286,
+      "mean_loro_acc": 0.5873015873015873,
+      "folds": {
+        "fold1": {
+          "accuracy": 0.3333333333333333,
+          "n_train": 28,
+          "n_test": 12
+        },
+        "fold2": {
+          "accuracy": 0.5,
+          "n_train": 26,
+          "n_test": 14
+        },
+        "fold3_prospective": {
+          "accuracy": 0.9285714285714286,
+          "n_train": 26,
+          "n_test": 14
+        }
+      },
+      "epoch_counts": {
+        "R04": {
+          "n_original": 15,
+          "n_kept": 12
+        },
+        "R08": {
+          "n_original": 15,
+          "n_kept": 14
+        },
+        "R12": {
+          "n_original": 15,
+          "n_kept": 14
+        }
+      },
+      "error": null
+    }
+  ]
+}

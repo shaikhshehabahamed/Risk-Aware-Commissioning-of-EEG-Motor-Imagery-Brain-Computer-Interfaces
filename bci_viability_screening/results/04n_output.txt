@@ -1,0 +1,39 @@
+n=92  viable=49  non-viable=43
+
+Running LOSO for all LDA models...
+  MS/LDA: AUC=0.286  [1.3s]
+  SP/LDA: AUC=0.541  [1.5s]
+  EO/LDA: AUC=0.444  [1.2s]
+  MS+SP/LDA: AUC=0.505  [9.9s]
+  FULL/LDA: AUC=0.551  [58.6s]
+
+============================================================
+DeLong Paired AUC Tests (4 planned comparisons)
+============================================================
+
+Comparison              AUC_a    AUC_b        z          p   Sig (a=0.0125)
+---------------------------------------------------------------------------
+  SP vs MS                0.541    0.286     3.10     0.0020               **
+  MS+SP vs MS             0.505    0.286     3.16     0.0016               **
+  MS+SP vs SP             0.505    0.541    -1.01     0.3108             n.s.
+  FULL vs MS+SP           0.551    0.505     1.39     0.1638             n.s.
+
+Bonferroni a = 0.0125
+
+============================================================
+Additional: LR models for reference
+============================================================
+  SP/LR (C=1.0): AUC=0.598  [4.3s]
+  DeLong SP/LR vs SP/LDA: z=1.84  p=0.0658
+  SP/LR 95%CI: [0.380, 0.622]
+
+Saved -> screening_results_delong.json
+
+============================================================
+SUMMARY - DeLong Tests
+============================================================
+  SP vs MS              AUC_a=0.541  AUC_b=0.286  z=3.10  p=0.0020  **
+  MS+SP vs MS           AUC_a=0.505  AUC_b=0.286  z=3.16  p=0.0016  **
+  MS+SP vs SP           AUC_a=0.505  AUC_b=0.541  z=-1.01  p=0.3108  n.s.
+  FULL vs MS+SP         AUC_a=0.551  AUC_b=0.505  z=1.39  p=0.1638  n.s.
+DONE

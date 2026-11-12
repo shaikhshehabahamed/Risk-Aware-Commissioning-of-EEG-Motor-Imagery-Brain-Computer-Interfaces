@@ -1,0 +1,78 @@
+n=92  viable=49  non-viable=43
+
+============================================================
+BENCHMARK — SP-aug-68/LR-nested (C=2.0, k=28)  [0.682]
+============================================================
+
+============================================================
+A. Nested XGBoost on SP-aug-68
+============================================================
+  XGB k=15 n=100 lr=0.1 d=3: AUC=0.430  [7.8s]  BEST
+  XGB k=15 n=200 lr=0.05 d=3: AUC=0.420  [12.7s]  <=LR
+  XGB k=15 n=300 lr=0.05 d=4: AUC=0.425  [16.7s]  <=LR
+  XGB k=15 n=200 lr=0.1 d=2: AUC=0.447  [9.7s]  BEST
+  XGB k=15 n=100 lr=0.05 d=4: AUC=0.397  [7.3s]  <=LR
+  XGB k=20 n=100 lr=0.1 d=3: AUC=0.438  [6.3s]  <=LR
+  XGB k=20 n=200 lr=0.05 d=3: AUC=0.439  [10.3s]  <=LR
+  XGB k=20 n=300 lr=0.05 d=4: AUC=0.443  [17.8s]  <=LR
+  XGB k=20 n=200 lr=0.1 d=2: AUC=0.460  [9.0s]  BEST
+  XGB k=20 n=100 lr=0.05 d=4: AUC=0.445  [7.7s]  <=LR
+  XGB k=28 n=100 lr=0.1 d=3: AUC=0.540  [8.1s]  BEST
+  XGB k=28 n=200 lr=0.05 d=3: AUC=0.523  [32.4s]  <=LR
+  XGB k=28 n=300 lr=0.05 d=4: AUC=0.535  [158.1s]  <=LR
+  XGB k=28 n=200 lr=0.1 d=2: AUC=0.548  [50.0s]  BEST
+  XGB k=28 n=100 lr=0.05 d=4: AUC=0.538  [16.1s]  <=LR
+
+  A-best: {'k': 28, 'n_est': 200, 'lr': 0.1, 'max_d': 2}  AUC=0.548
+
+============================================================
+B. Ensemble LR + XGBoost (LOSO probabilities averaged)
+============================================================
+  LR k=28 C=2.0: AUC=0.682  [2.6s]
+  Ensemble w_LR=0.5: AUC=0.642
+  Ensemble w_LR=0.6: AUC=0.657
+  Ensemble w_LR=0.7: AUC=0.667
+  Ensemble w_LR=0.8: AUC=0.671
+  Ensemble raw 60/40: AUC=0.657
+
+============================================================
+C. RBF-SVM with nested Spearman on SP-aug-68
+============================================================
+  SVM k=20 C=0.5: AUC=0.313  [2.3s]  BEST
+  SVM k=20 C=1.0: AUC=0.313  [2.7s]  BEST
+  SVM k=20 C=2.0: AUC=0.355  [2.5s]  BEST
+  SVM k=20 C=5.0: AUC=0.434  [2.5s]  BEST
+  SVM k=28 C=0.5: AUC=0.411  [2.9s]  
+  SVM k=28 C=1.0: AUC=0.301  [2.9s]  
+  SVM k=28 C=2.0: AUC=0.410  [2.5s]  
+  SVM k=28 C=5.0: AUC=0.534  [2.5s]  BEST
+
+  C-best SVM: AUC=0.534
+
+============================================================
+D. Nested XGBoost on MS features
+============================================================
+  MS/XGB n=100 lr=0.1 d=3: AUC=0.490  [12.6s]
+  MS/XGB n=200 lr=0.05 d=4: AUC=0.447  [22.6s]
+  MS/XGB n=200 lr=0.1 d=2: AUC=0.458  [16.0s]
+
+  D-best MS/XGB: AUC=0.490
+
+============================================================
+E. 3-way ensemble: SP-aug/LR + SP-aug/XGB + MS/XGB
+============================================================
+  w_LR=0.6 w_XGB=0.2 w_MS=0.2: AUC=0.673
+  w_LR=0.5 w_XGB=0.3 w_MS=0.2: AUC=0.657
+  w_LR=0.7 w_XGB=0.2 w_MS=0.1: AUC=0.674
+  w_LR=0.5 w_XGB=0.5 w_MS=0.0: AUC=0.642
+  w_LR=0.8 w_XGB=0.2 w_MS=0.0: AUC=0.671
+
+============================================================
+SUMMARY
+============================================================
+  Benchmark SP-aug/LR-nested:  AUC=0.682
+  A: SP-aug/XGB-nested best:   AUC=0.548  cfg={'k': 28, 'n_est': 200, 'lr': 0.1, 'max_d': 2}
+  C: SP-aug/SVM-nested best:   AUC=0.534
+  D: MS/XGB (no selection):    AUC=0.490
+  Best single model:           0.682
+DONE

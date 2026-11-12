@@ -1,0 +1,60 @@
+n=92  viable=49
+
+Extracting IAB features from raw EC EEG...
+IAB features: 18  (['IAB_C3', 'IAB_Cz', 'IAB_C4', 'IAB_CP3', 'IAB_CPz']...)
+
+Spearman correlations (IAB features vs fold3_acc):
+  IAB_C3                   : rho=+0.198  p=0.059
+  IAB_Cz                   : rho=+0.119  p=0.257
+  IAB_C4                   : rho=+0.225  p=0.031
+C:\Users\sheha\Downloads\resting_bci_screening\scripts\04o_iapf_bands.py:169: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  r, p = spearmanr(X_iab[:, j], fold3_acc)
+  IAB_P3                   : rho=+0.182  p=0.082
+  IAB_Pz                   : rho=+0.227  p=0.029
+  IAB_P4                   : rho=+0.240  p=0.021
+  IAB_F3                   : rho=+0.176  p=0.094
+  IAB_Fz                   : rho=+0.176  p=0.094
+  IAB_F4                   : rho=+0.189  p=0.071
+  IAB_O1                   : rho=+0.163  p=0.120
+  IAB_Oz                   : rho=+0.152  p=0.147
+  IAB_O2                   : rho=+0.154  p=0.143
+  IAB_lat_P4_P3            : rho=+0.159  p=0.130
+  iAPF_Cz_recomputed       : rho=+0.173  p=0.098
+
+============================================================
+A. IAB features alone (nested LOSO)
+============================================================
+  IAB/LR-top 5 C=1.0: AUC=0.326  [1.0s]
+  IAB/LR-top 5 C=2.0: AUC=0.326  [1.3s]
+  IAB/LR-top 8 C=1.0: AUC=0.329  [1.2s]
+  IAB/LR-top 8 C=2.0: AUC=0.345  [1.5s]
+  IAB/LR-top10 C=1.0: AUC=0.373  [1.6s]
+  IAB/LR-top10 C=2.0: AUC=0.389  [1.5s]
+  IAB/LR-top12 C=1.0: AUC=0.396  [1.4s]
+  IAB/LR-top12 C=2.0: AUC=0.402  [1.5s]
+  IAB/LR-top15 C=1.0: AUC=0.412  [1.7s]
+  IAB/LR-top15 C=2.0: AUC=0.418  [1.9s]
+
+  A-best IAB: AUC=0.418
+
+============================================================
+B. SP-aug-68 + IAB combined pool (nested)
+============================================================
+Combined pool: 86 features
+  comb/LR-top28 C=1.5: AUC=0.664  [3.4s]  
+  comb/LR-top28 C=2.0: AUC=0.665  [3.0s]  
+  comb/LR-top28 C=2.5: AUC=0.667  [3.4s]  
+  comb/LR-top30 C=1.5: AUC=0.677  [2.6s]  
+  comb/LR-top30 C=2.0: AUC=0.677  [2.8s]  
+  comb/LR-top30 C=2.5: AUC=0.676  [3.3s]  
+  comb/LR-top32 C=1.5: AUC=0.682  [3.2s]  IMPROVEMENT!
+  comb/LR-top32 C=2.0: AUC=0.679  [2.5s]  
+  comb/LR-top32 C=2.5: AUC=0.679  [3.2s]  
+  comb/LR-top35 C=1.5: AUC=0.659  [2.9s]  
+  comb/LR-top35 C=2.0: AUC=0.661  [2.5s]  
+  comb/LR-top35 C=2.5: AUC=0.661  [2.5s]  
+
+  B-best combined: AUC=0.682  (IMPROVEMENT vs 0.682)
+
+DONE
+DONE

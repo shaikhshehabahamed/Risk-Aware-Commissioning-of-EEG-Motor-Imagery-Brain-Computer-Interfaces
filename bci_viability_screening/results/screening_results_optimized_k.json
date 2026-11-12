@@ -1,0 +1,7 @@
+{
+  "best_k": 20,
+  "best_C": 2.0,
+  "full_cohort_auc": 0.6245847176079735,
+  "clear_subgroup_auc": 0.6853002070393375,
+  "mean_label_auc": 0.628992628992629
+}

@@ -1,0 +1,50 @@
+n=92  viable=49  non-viable=43
+X_aug shape: (92, 68)
+
+============================================================
+A. Observed AUC (fast implementation)
+============================================================
+  SP-aug-68/LR-nested-top28 (C=2.0): AUC=0.682  [2.1s]
+
+============================================================
+B. Permutation test (n=200), observed AUC = 0.682
+============================================================
+  perm  20/200  max_null=0.608  p_running=0.0000  elapsed=36s  ETA=325s
+  perm  40/200  max_null=0.608  p_running=0.0000  elapsed=97s  ETA=389s
+  perm  60/200  max_null=0.635  p_running=0.0000  elapsed=143s  ETA=333s
+  perm  80/200  max_null=0.635  p_running=0.0000  elapsed=187s  ETA=280s
+  perm 100/200  max_null=0.635  p_running=0.0000  elapsed=229s  ETA=229s
+  perm 120/200  max_null=0.646  p_running=0.0000  elapsed=277s  ETA=185s
+  perm 140/200  max_null=0.646  p_running=0.0000  elapsed=345s  ETA=148s
+  perm 160/200  max_null=0.646  p_running=0.0000  elapsed=433s  ETA=108s
+  perm 180/200  max_null=0.650  p_running=0.0000  elapsed=486s  ETA=54s
+  perm 200/200  max_null=0.650  p_running=0.0000  elapsed=537s  ETA=0s
+
+  Observed AUC = 0.682
+  Null mean    = 0.502  std=0.062
+  Null max     = 0.650
+  z-score      = 2.88
+  p-value      = 0.0000
+  --> *** p<0.01
+
+============================================================
+C. Bootstrap 95% CI for observed AUC
+============================================================
+  SP-aug-68/LR-nested-top28: AUC=0.682  95%CI=[0.564,0.793]
+
+Saved -> screening_results_permtest.json
+
+============================================================
+SUMMARY
+============================================================
+  Model:        SP-aug-68/LR-nested (k=28, C=2.0)
+  Observed AUC: 0.682
+  95% CI:       [0.564, 0.793]
+  Perm p-value: 0.0000  (200 permutations)
+  z-score:      2.88
+Traceback (most recent call last):
+  File "C:\Users\sheha\Downloads\resting_bci_screening\scripts\04l_fast_permutation.py", line 197, in <module>
+    print(f"  Null:         \u03bc={null_mean:.3f} \u03c3={null_std:.3f} max={null_max:.3f}")
+  File "C:\ProgramData\anaconda3\envs\ml\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u03bc' in position 16: character maps to <undefined>
