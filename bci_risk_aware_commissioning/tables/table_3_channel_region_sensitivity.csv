@@ -1,0 +1,6 @@
+policy,budget,mean_selected,mean_motor_set_fraction,mean_posterior_fraction,mean_frontal_fraction
+all,64,64.0,0.328125,0.140625,0.265625
+central_parietal_topk_effect,21,21.0,0.7253212396069539,0.0,0.0
+fixed_motor,21,21.0,1.0,0.0,0.0
+topk_effect,16,16.0,0.4093253968253968,0.1676587301587301,0.2418650793650793
+topk_effect,21,21.0,0.4019652305366591,0.1564625850340136,0.2433862433862433
