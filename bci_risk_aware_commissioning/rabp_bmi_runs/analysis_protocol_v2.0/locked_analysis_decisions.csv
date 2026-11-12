@@ -1,0 +1,10 @@
+decision_id,decision,locked_choice,rationale
+D01,Primary scientific framing,Risk-aware operations-research framework for cue-paced EEG command gating.,This matches the validated evidence and avoids overclaiming pure motor decoding.
+D02,Primary operating policy,"Primary21: top-k 21 channels, 60 calibration trials, target coverage 0.3, deploy if calibration BA >= 0.65 and FCR <= 0.10.",Strongest validated budgeted reliability-safety-access tradeoff after the v2 window and target sweep.
+D03,Always-deploy budgeted baseline,TopK16 no-gate.,Shows resource reduction relative to all channels without readiness gating.
+D04,Primary comparator,All64 no-gate.,Conventional full-channel benchmark.
+D05,High-confidence secondary,TopK16 target0.4 Rule75 and TopK21 target0.3 Meta21.,"Useful sensitivity modes for high-confidence operation, but not the best primary deployment/coverage tradeoff."
+D06,Biological sensitivity,Central21 and Motor21.,Quantifies what remains when posterior/frontal or non-motor channels are constrained.
+D07,Statistical validation,Subject-level bootstrap confidence intervals and paired subject-level comparisons.,Preserves subject heterogeneity and avoids trial-level pseudo-replication.
+D08,Non-inferiority interpretation,Use 0.05 BA margin only as a screening/engineering margin.,No clinical margin has been externally established for this dataset and task.
+D09,Protocol amendment,v2.0 supersedes v1.0 after exploratory operating-point and window audits.,The 0.5-3.5 s window improved the validated budgeted policy frontier; this amendment records the data-driven pivot explicitly.

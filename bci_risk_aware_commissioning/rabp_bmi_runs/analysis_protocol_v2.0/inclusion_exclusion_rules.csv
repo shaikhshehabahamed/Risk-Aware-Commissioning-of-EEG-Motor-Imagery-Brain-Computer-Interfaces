@@ -1,0 +1,7 @@
+rule,decision,details
+dataset,include,"PhysioNet EEG Motor Movement/Imagery Database; target runs R04, R08, R12."
+task,include,"Cue-paced rest-vs-intent command gating: T0=rest, T1/T2=intent."
+primary_window,include,Use 0.5-3.5 s post-cue analysis window as final v2 primary setting.
+known_problematic_subjects,exclude_primary,"Exclude S088, S092, S100, S104 due to sampling-rate mismatch, damaged/short recordings, or known usability concerns."
+delayed_window,sensitivity_only,1.5-4.0 s window is retained as a conservative delayed-window sensitivity analysis.
+left_right_motor_imagery,not_primary,Left-vs-right motor imagery was evaluated and found too weak for the primary OR decision-analytics contribution.

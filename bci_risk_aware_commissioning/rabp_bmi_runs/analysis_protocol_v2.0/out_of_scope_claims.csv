@@ -1,0 +1,6 @@
+item,status,reason
+new_classifier_claim,out_of_scope,"Novelty is in decision framework, budget formulation, evaluation design, and deployment policy."
+pure_motor_cortex_decoding_claim,out_of_scope,Top-k policies select meaningful frontal/posterior fractions; cue-paced command-gating framing is more honest.
+self_paced_asynchronous_bmi_claim,out_of_scope,"Dataset and labels support cue-paced analysis, not self-paced asynchronous command detection."
+universal_deployment_claim,out_of_scope,Readiness gates deliberately reject many sessions; lower-tail subjects remain a limitation.
+clinical_effectiveness_claim,out_of_scope,"The public dataset supports methodological validation, not clinical efficacy."

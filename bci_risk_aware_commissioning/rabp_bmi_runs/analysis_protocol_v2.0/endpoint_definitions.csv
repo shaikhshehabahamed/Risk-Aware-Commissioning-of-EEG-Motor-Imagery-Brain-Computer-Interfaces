@@ -1,0 +1,8 @@
+endpoint,role,definition,direction
+accepted_balanced_accuracy,primary_reliability_endpoint,Balanced accuracy computed only on accepted trials in deployed sessions.,higher_is_better
+unconditional_false_command_rate,primary_safety_endpoint,"False intent commands divided by all rest opportunities, including no-go sessions.",lower_is_better
+deployment_rate,access_endpoint,Held-out subject-run folds accepted for deployment by the policy.,higher_is_better
+unconditional_actual_coverage,access_and_utility_endpoint,"Accepted held-out trials divided by all held-out trials, including no-go sessions.",higher_is_better
+deployed_actual_coverage,conditional_utility_endpoint,Accepted held-out trials divided by held-out trials only among deployed sessions.,higher_is_better
+mean_deployed_channel_budget,resource_endpoint,Mean number of EEG channels required when the policy deploys.,lower_is_better
+mean_deployed_calibration_trials,resource_endpoint,Mean number of labeled calibration trials required when the policy deploys.,lower_is_better

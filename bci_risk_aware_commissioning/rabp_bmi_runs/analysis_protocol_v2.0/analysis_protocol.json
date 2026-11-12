@@ -1,0 +1,61 @@
+{
+  "protocol_version": "v2.0",
+  "created_utc": "2026-06-08T18:28:34.059406+00:00",
+  "status": "frozen_v2_for_reproducible_analysis_not_manuscript_submission",
+  "dataset": {
+    "name": "PhysioNet EEG Motor Movement/Imagery Database",
+    "dataset_root": "C:\\Users\\sheha\\Downloads\\bci_risk_aware_commissioning\\eeg-motor-movementimagery-dataset-1.0.0",
+    "task_runs": [
+      4,
+      8,
+      12
+    ],
+    "primary_clean_subject_count": 105,
+    "excluded_subjects_primary": [
+      "S088",
+      "S092",
+      "S100",
+      "S104"
+    ]
+  },
+  "task": {
+    "name": "cue_paced_rest_vs_intent_command_gating",
+    "rest_label": "T0",
+    "intent_labels": [
+      "T1",
+      "T2"
+    ],
+    "primary_window_seconds": [
+      0.5,
+      3.5
+    ],
+    "sensitivity_window_seconds": [
+      1.5,
+      4.0
+    ]
+  },
+  "primary_policy": {
+    "mode_label": "topk21_m15_rule_t03_ba065_fcr010",
+    "description": "Top-k 21, target 0.3, rule gate: calib BA >= 0.65 and FCR <= 0.10",
+    "channels": 21.0,
+    "calibration_trials": 60.0,
+    "readiness_rule": "target coverage 0.3; deploy if calibration accepted BA >= 0.65 and calibration FCR <= 0.10"
+  },
+  "primary_endpoints": [
+    "accepted_balanced_accuracy",
+    "unconditional_false_command_rate",
+    "deployment_rate",
+    "unconditional_actual_coverage"
+  ],
+  "primary_validation": [
+    "subject_level_bootstrap_confidence_intervals",
+    "paired_subject_level_comparisons",
+    "core_output_verification",
+    "claim_evidence_manifest"
+  ],
+  "change_control": {
+    "rule": "Any further change to primary task, primary window, primary policy, cohort, or endpoint hierarchy must create a new protocol version with rationale.",
+    "next_version_if_changed": "v3.0",
+    "v2_amendment_rationale": "Exploratory window, target-coverage, and classifier audits found the strongest budgeted operating frontier in the 0.5-3.5 s logistic-readiness setting."
+  }
+}
