@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: rabp-bmi
+Version: 0.1.0
+Summary: Risk-aware budgeted EEG command-gating analysis code.
+Requires-Python: >=3.11
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: mne
+Requires-Dist: matplotlib
